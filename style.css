@@ -1,0 +1,40 @@
+.app {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  max-width: 375px;
+}
+
+.addictionContainer {
+  flex: 1;
+  border: 1px solid grey;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.leftSecion {
+  border-right: 1px solid grey;
+  min-height: 240px;
+}
+.icon {
+  width: 120px;
+}
+
+.addictionHeader {
+  text-align: center;
+  color: #373a40;
+}
+.addictionCounter {
+  text-align: center;
+  margin: 0;
+}
+.description {
+  margin: 10px;
+  font-size: 12px;
+}
