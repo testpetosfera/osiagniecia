@@ -4,6 +4,8 @@ const lastMasturbate = 1602021600000;
 const lastDrugs = 1516662000000;
 const lastSugar = 1588888800000;
 const lastSmoke = 1596146400000;
+const lastSnack = 1602885600000;
+const lastEnergyDrink = 1595368800000;
 
 const calculateNumberOfDays = (miliseconds) => {
   return Math.floor((currentTime - miliseconds) / 24 / 60 / 60 / 1000);
@@ -19,9 +21,21 @@ document.getElementById("sugar").innerHTML = calculateNumberOfDays(lastSugar);
 document.getElementById("masturbate").innerHTML = calculateNumberOfDays(
   lastMasturbate
 );
+document.getElementById("energy").innerHTML = calculateNumberOfDays(
+  lastEnergyDrink
+);
+document.getElementById("snacks").innerHTML = calculateNumberOfDays(lastSnack);
 
 if (calculateNumberOfDays(lastSmoke) < 730) {
   document.getElementById("addictionCounterSmoke").style.color = "#fe7171";
+}
+
+if (calculateNumberOfDays(lastSmoke) < 730) {
+  document.getElementById("addictionCounterEnergy").style.color = "#fe7171";
+}
+
+if (calculateNumberOfDays(lastSmoke) < 730) {
+  document.getElementById("addictionCounterSnacks").style.color = "#fe7171";
 }
 
 if (calculateNumberOfDays(lastMasturbate) < 730) {
