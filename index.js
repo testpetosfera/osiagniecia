@@ -3,7 +3,7 @@ const lastAlcohol = 1521327600000;
 const lastMasturbate = 1602021600000;
 const lastDrugs = 1516662000000;
 const lastSugar = 1588888800000;
-const lastSmoke = 1596146400000;
+const lastSmoke = 1613689200000;
 const lastSnack = 1602885600000;
 const lastEnergyDrink = 1595368800000;
 
