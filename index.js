@@ -1,6 +1,6 @@
 const currentTime = new Date().getTime();
 const lastAlcohol = 1521327600000;
-const lastMasturbate = 1616680257621;
+const lastMasturbate = 1617269614371;
 const lastDrugs = 1516662000000;
 const lastSugar = 1588888800000;
 const lastSmoke = 1613689200000;
